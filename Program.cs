@@ -33,11 +33,11 @@
 
 // Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
-// int[] Array = new int[8];
+int[] Array = new int[8];
 
-// for (int i = 0; i < 8; i++)
-// {
-//     Array[i] = new Random().Next(1, 10);
-//     Console.Write(Array[i] + " ");
-// }
+for (int i = 0; i < 8; i++)
+{
+    Array[i] = new Random().Next(1, 10);
+    Console.Write(Array[i] + " ");
+}
 
